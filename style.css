@@ -2,10 +2,6 @@
 html { box-sizing: border-box; }
 *, ::after, ::before { box-sizing: inherit; }
 
-body {
-    text-rendering: optimizeLegibility;
-}
-
 /*
  BARVY
  svetle sede pozadi      #f5f5f5
@@ -21,3 +17,147 @@ body {
 */
 
 /* ----- zde zacni psat vlastni css ----- */
+
+body {
+	text-rendering: optimizeLegibility;
+	font-family: 'Rubik', sans-serif;
+	font-size: 14px;
+	font-weight:400;
+	font-style: Regular;
+	margin: auto;
+	border-radius: 5px;
+}
+
+.zbozi{
+	max-width: 670px;
+	max-height:440px;
+	box-shadow: 3px 3px 3px grey;
+	margin: auto;
+	border-radius: 5px;
+}
+
+.vizual{
+	background-image: linear-gradient(to bottom right, #06d7c1, #50cc49);
+	position: relative;
+	display: inline-block;
+	width: 50%;
+	border-radius: 5px 0 0 5px;
+}
+
+.logo{
+	margin-left: 30px;
+	padding-top: 30px;
+}
+
+.slogan{
+	margin-left: 30px;
+	font-size: 16px;
+	font-weight: bold;	
+	color: white;
+}
+
+.bota{
+	position: relative;
+	right: 90px;
+}
+
+.vizual .cenovka{
+	text-align: right;
+	float: right;
+	padding-bottom: 30px;
+	position: absolute;
+	top: 350px;
+	right: 30px; 
+	color: white;
+}
+
+.cenovka .cena{
+	font-size: 28px;
+	font-weight:bold;
+}
+
+.cenovka .zaruka{
+	font-size: 12px;
+	font-weight:bold;
+}
+
+.detaily{
+	display: inline-block;
+	width: 50%;
+	float: right;
+	padding: 30px;
+	height: 430px;
+	border-radius: 0 5px 5px 0;
+}
+
+.nazev{
+	text-transform: uppercase;
+	font-size: 20px;
+	margin: 0;
+	padding: 0;
+}
+
+.produkt{
+	color: #959595;
+	margin: 0;
+	padding: 10px 0 0 0;
+}
+
+.popis{
+	border-bottom-style: solid;
+	border-bottom-color: #06d7c1;
+	padding: 30px 0;
+	margin: 0;
+}
+
+.parametr{
+	text-transform: uppercase;
+	margin: 0;
+	font-size: 1em;
+	padding: 30px 0 0 0;
+}
+
+ul li{
+	display: inline-block;
+}
+
+li{
+	padding: 0px 10px;
+}
+
+.velikosti{
+	font-weight: bold;
+	margin: 0;
+	padding-bottom: 30px;
+	padding-left: 0px;
+	padding-top: 10px;
+}
+
+.vybrana{
+	color:#f15f42;
+	border-radius: 50%;
+	height: 30px;
+	width: 30px;
+	border: 1px solid #f15f42;
+	padding: 5px 5px;
+}
+
+.akce{
+	margin: 30px 0 0 0;
+	padding: 0;
+	background-color:#f15f42;
+	border-radius: 5px;
+	width:50%;
+}
+
+.akce a{
+	text-decoration: none;
+	text-transform: uppercase;
+	color: white;
+	display: block;
+	text-align: center;
+	font-size: 15px;
+	padding: 15px 0;
+	width: 100%;
+	height: 100%;
+}
